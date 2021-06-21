@@ -1,0 +1,174 @@
+
+body {
+    background: rgb(37, 37, 37);
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px; 
+}
+
+header .menu-left {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header .logo-netflix-header {
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+header .item-menu-left {
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+header nav a{
+    text-decoration:none;
+    color: white;
+    vertical-align: middle;
+}
+
+header nav a:hover{
+    color:rgb(134, 134, 134);
+}
+
+
+header .menu-right {
+    align-content: right;
+    align-items: center;
+}
+
+header .icone-menu-user {
+    width: 2.3rem;
+    border-radius: 15%;
+    margin-left: 1rem;
+}
+
+header .icones-menu-right {
+    width: 1.5rem;
+    border-radius: 15%;
+    margin-left: 1rem;
+}
+
+main .home-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0,0,0,.35)100%),  url('../img/edge_of_tomorrow.jpg');
+    height:750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+main #movie-info.container {
+    display: grid;
+    align-content: stretch;
+    margin: 20px 40px; 
+    padding-bottom: 30px;
+    height: 320px;
+}
+
+.movie-title-img {
+    width: 30%;
+}
+
+.movie-description1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+}
+
+.movie-description2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.button-play {
+    background-color: rgb(255, 255, 255);
+    border:none;
+    padding:12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 6px;
+    cursor: pointer;
+    transition: .3s ease all;         
+}
+
+.button-play:hover {
+    background-color: rgba(255, 255, 255, 0.767);
+}
+
+.button-info {
+    background-color: rgba(145, 145, 145, 0.637);
+    color: white;
+    border:none;
+    padding:12px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s ease all;   
+}
+
+.button-info:hover {
+    background-color: rgba(145, 145, 145, 0.247);
+}
+
+.carrossel {
+    margin: 25px 40px 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.owl-carousel {
+    margin-top: 20px;
+}
+footer {
+    margin-top: 45px;
+}
+
+
+footer .midia-buttons {
+    margin-left: 270px;
+}
+
+footer .fab {
+    color: rgb(146, 146, 146);
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+footer .useful-links {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin: 20px 270px 20px 270px;
+}
+
+footer .useful-links-list {
+    margin-bottom: 20px;
+}
+
+footer .useful-link-item {
+    color: rgb(146, 146, 146);
+    font-size:13px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+footer .botao-codigo-servico {
+    color: rgb(146, 146, 146);
+    font-size: 11px;
+    border: 1px solid rgb(146, 146, 146);
+    background-color: rgba(146, 146, 146, 0);
+    padding: 7px;
+    margin-left: 270px;
+}
+
+

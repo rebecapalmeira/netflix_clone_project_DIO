@@ -1,0 +1,23 @@
+$('.owl-carousel').owlCarousel({
+    navigation:true,
+    slideSpeed:300,
+    paginationSpeed:200,
+    items:1,
+    autoplay:500,
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        500:{
+            items:2
+        },
+        900:{
+            items:4
+        },
+        1100:{
+            items:7
+        }
+    }
+})
